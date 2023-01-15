@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.hidden{
-    display: none;
-}
 
 /*------ Common Styles ------ */
 
@@ -20,14 +17,14 @@ body {
 
 .title {
     color: #131313;
-    font-size: 2em;
+    font-size: 35px;
     font-weight: 700;
 }
 
 .description {
     color: #727272;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 14px;
     padding-bottom: 20px;
 }
 
@@ -55,7 +52,7 @@ header {
 .menu-bar a {
     text-decoration: none;
     color: #424242;
-    font-size: 1.2em;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -68,7 +65,7 @@ header {
 }
 
 .banner-title {
-    font-size: 3em;
+    font-size: 45px;
     color: #131313;
     ;
 }
@@ -77,24 +74,18 @@ header {
 }
 .primary-btn {
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 24px;
     color: #FFFFFF;
     background: #FF900E;
     border: none;
     border-radius: 8px;
     padding: 15px 18px;
+    margin-bottom: 30px;
 }
 
 .primary-btn a {
     color: #FFFFFF;
     text-decoration: none;
-}
-
-.banner-img-container {
-    /* max-width: 930px;
-    max-height: 460px;
-    margin: 0 auto;
-    padding: 35px 0 40px; */
 }
 
 .banner-img-container img {
@@ -104,6 +95,7 @@ header {
 }
 
 /*---- Styles for Features section  ----*/
+
 .feature {
     padding: 70px 0;
 }
@@ -139,6 +131,7 @@ header {
 }
 
 /*--- Styles for Features you will love & enjoy ---*/
+
 .love_enjoy {
     padding: 60px 0;
 }
@@ -187,7 +180,7 @@ header {
 .feature-description {
     color: #727272;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 .img-btn-container img{
@@ -208,16 +201,17 @@ header {
 }
 
 .btn-expe h2 {
-    font-size: 3em;
+    font-size: 45px;
     font-weight: 700;
 }
 
 .btn-expe p {
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: 500;
 }
 
 /*----- Styles for Some Facts----- */
+
 .some_facts{
     padding: 60px 0;
 }
@@ -240,9 +234,14 @@ header {
     border-radius: 8px;
     text-align: center;
     padding: 30px 25px;
+    transition: all 0.2s ease;
 }
+.fact:hover {
+    background: #ff8f0e75;
+    cursor: pointer;
+}
+/*-----Styles for sponsor   ---*/
 
-/* sponsor css  */
 .sponsor {
     padding: 50px;
 }
@@ -270,7 +269,7 @@ header {
     cursor: pointer;
 }
 
-/* footer css  */
+/*------- Styles for footer -------*/
 footer .container {
     padding: 40px 0;
     background: #FFF4E7;
@@ -279,7 +278,8 @@ footer .container {
     color: #000;
 }
 
-/* responsive css  */
+/*----- responsive css for Mobile  ----*/
+
 @media screen and (max-width: 576px) {
         .nav-bar {
             display: block;
